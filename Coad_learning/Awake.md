@@ -6,3 +6,27 @@
   * 초기화: 게임 오브젝트가 씬에서 활성화될 때 가장 먼저 호출되어 초기화 작업을 수행한다.
   * 순서 보장: Awake는 모든 게임 오브젝트의 Start 메서드가 호출되기 전에 실행되므로, 초기화 순서를 보장받을 수 있다.
   * 씬 로드 시 호출: 씬이 로드될 때 게임 오브젝트가 활성화되면 Awake 메서드가 호출된다.
+
+```C#
+using UnityEngine;
+
+public class SampleObject : MonoBehaviour
+{
+    void Awake()
+    {
+        // 이 게임 오브젝트가 활성화될 때 가장 먼저 호출된다.
+        Debug.Log("Awake 호출");
+    }
+
+    void Start()
+    {
+        // 모든 Awake 메서드가 호출된 후에 호출된다.
+        Debug.Log("Start 호출");
+    }
+
+    void Update()
+    {
+        // 매 프레임마다 호출된다.
+    }
+}
+```
