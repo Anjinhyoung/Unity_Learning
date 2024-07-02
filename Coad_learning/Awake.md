@@ -30,3 +30,9 @@ public class SampleObject : MonoBehaviour
     }
 }
 ```
+
+# Awake와 Start의 차이점
+ * Awake: 게임 오브젝트가 활성화될 때 가장 먼저 호출되다.
+ * Start: 모든 Awake 메서드가 호출된 후에 호출된다. 스크립트가 처음 활성화될 때 한 번만 호출된다.
+ * Awake: 다른 스크립트나 컴포넌트와 상관없이 초기화 작업을 수행할 때 사용된다.
+ * Start: 다른 스크립트나 컴포넌트가 이미 초기화된 상태에서 작업을 수행할 때 사용된다.
