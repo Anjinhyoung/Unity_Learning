@@ -1,6 +1,7 @@
 # 들어가기 앞어서
   ![image](https://github.com/Anjinhyoung/Unity_Learning/assets/117788976/d2e4fbb0-ac6a-48f3-a7ee-349cffe089b4)
   * 유니티의 UI 시스템에서 버튼이 클릭되었을 때 실행할 함수를 지정하는 기능이다.
+    
   ![image](https://github.com/Anjinhyoung/Unity_Learning/assets/117788976/c9c21cb1-6581-4a19-a456-e5ae76204915)
   * 유니티의 UI 시스템에서 사용자가 인터페이스와 상호작용할 때 발생하는 이벤트를 의미한다. ex) 슬라이더의 값이 변경될 때
 
