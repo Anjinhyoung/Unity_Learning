@@ -36,3 +36,5 @@ public class ButtonScript : MonoBehaviour
   * 그 결과 사용자가 임의로 만든 ChangeDialog(), NowSliderValue() 함수를 유니티 UI 시스템에서 사용할 수 있다.
 
 ![image](https://github.com/Anjinhyoung/Unity_Learning/assets/117788976/a1039011-fae5-4fcd-a6bd-9b3e689cdac8)
+![image](https://github.com/Anjinhyoung/Unity_Learning/assets/117788976/374b28a0-f940-4052-a153-dff5fd921a28)
+
