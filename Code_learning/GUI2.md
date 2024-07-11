@@ -34,3 +34,5 @@ public class ButtonScript : MonoBehaviour
   * **using UnityEngine.UI :** 네임스페이스는 유니티의 UI 시스템과 관련된 클래스와 메서드를 포함하고 있다.
   * 이를 사용하면 유니티의 uGUI 시스템인 Canvas, Text, Button, Slider 등의 컴포넌트를 다룰 수 있다.
   * 그 결과 사용자가 임의로 만든 ChangeDialog(), NowSliderValue() 함수를 유니티 UI 시스템에서 사용할 수 있다.
+
+![image](https://github.com/Anjinhyoung/Unity_Learning/assets/117788976/a1039011-fae5-4fcd-a6bd-9b3e689cdac8)
