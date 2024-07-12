@@ -50,4 +50,26 @@ Vector3 vector = new Vector3(3,4,0);
 vector.Normalize(); // 원본 벡터를 정규화
 ```
  
-    
+# MoveTowards()
+ * Vector3.MoveTowards()는 두 점 사이를 일정한 속도로 이동할 때 사용되는 메서드이다.
+ * 주어진 시작 위치에서 목표 위치까지의 방향으로 지정된 거리만큼 이동한 새로운 위치를 반환한다.
+
+```C#
+사용 방법
+
+Vector3.MoveToWard(current, target, maxDistanceDelta);
+```
+ * current: 현재 위치
+ * target: 목표 위치
+ * maxDistanceDelta: 현재 위치에서 목표 위치로 이동할 최대 거리
+
+```C#
+
+Vector3 currentPosition = new Vector3(1,1,1);
+Vector3 targetPosition = new Vector3(5,5,5);
+float speed = 2.0f;
+
+Vector3 newPosition = Vector3.MoveTowards(currentPosition, targetPosition, speed * Time.deltaTime);
+
+maxDistanceDelta: speed * Time.deltaTime을 사용하여 매 프레임 이동할 최대 거리를 계산한다. 이 값이 maxDistanceDelta에 해당한다.
+```
