@@ -18,4 +18,36 @@
  * ![image](https://github.com/user-attachments/assets/f07b13cf-bfac-41d6-9b99-986226a88076)
  * 출처: Chat GPT
  * Magnitude의 사용법(Magnitude는 **읽기 전용 속성**이라서 'get'만 제공된다.)
+
+```C#
+Magnitude 사용법
+
+Vector3 vector = new Vector3(3,4,0);
+float magnitude = vector.magnitude;
+Debug.Log("Magnitude: " + magnitude);
+
+출력 결과
+5
+```
+ * 사용하는 이유: 거리 계산, 정규화, 물리 계산 등등
+
+# 정규화
+ * 주어진 벡터의 길이를 1로 만드는 과정 이렇게 만들어진 벡터를 **단위 벡터**라고 한다.
+ * 정규화는 벡터의 방향은 유지하면서 크기만을 조정하는 작업이다.
+ * 정규화 사용방법들
+
+```C#
+정규화 사용방법 - 1(.normalized)
+
+Vector3 vector = new Vector3(3,4,0);
+Vector3 normalizedVector = vector.normalized; // 정규화된 벡터 반환
+```
+
+```C#
+정규화 사용방법 -2(.Normalize())
+
+Vector3 vector = new Vector3(3,4,0);
+vector.Normalize(); // 원본 벡터를 정규화
+```
+ 
     
